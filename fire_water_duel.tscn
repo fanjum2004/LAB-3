@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://dja466ippnsx"]
+
+[node name="FireWaterDuel" type="Control" unique_id=2135398693]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -1.0
+offset_right = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Fire Backround" type="ColorRect" parent="." unique_id=1742621025]
+layout_mode = 0
+offset_left = -4.0
+offset_top = 2.0
+offset_right = 590.0
+offset_bottom = 648.0
+color = Color(0.94918543, 0.24471557, 0.19848296, 1)
+
+[node name="ColorRect" type="ColorRect" parent="Fire Backround" unique_id=1308630978]
+layout_mode = 0
+offset_left = 578.0
+offset_top = 1.0
+offset_right = 1165.0
+offset_bottom = 636.0
+color = Color(0.07450981, 0.3019608, 1, 1)
+
+[node name="title" type="Label" parent="." unique_id=1878431430]
+layout_mode = 0
+offset_left = 292.0
+offset_top = 197.0
+offset_right = 780.0
+offset_bottom = 239.0
+theme_override_font_sizes/font_size = 80
+text = "FIREWATER Duel "
